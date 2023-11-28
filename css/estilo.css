@@ -1,0 +1,97 @@
+
+
+body,html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+.container {
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 576px) {
+    .navbar {
+      width: 100% !important; 
+    }
+  }
+.header {
+	background: #ffc107;
+	color: white;
+	margin: 0;
+}
+.navbar{
+	width: 75%;
+	margin: auto;
+}
+.navbar-brand {
+    height: 50px; 
+}
+
+.header nav ul li a {
+    color: black !important;
+}
+.header nav ul li a:hover {
+    color: white !important;
+	border: 1px solid white;
+}
+
+.header nav ul li .btn {
+    color: white !important;
+	border: 1px solid white;
+
+}
+
+.capa {
+    color: white;
+    background-color: #ffc107;
+	margin: 0;
+	padding: 0;
+}
+
+.imagem{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.capa .formulario {
+    margin: auto;
+	padding: 0;
+    width: 50%;
+}
+.capa h1 {
+	color:white;
+	font-size: 3em;
+}
+.capa p{
+	font-size: 1.5em;
+	padding: 1rem;
+	margin: 2rem;
+}
+.icones img {
+	padding: 3px;
+   margin: 5px;
+   border: 1px solid white;
+}
+main .row{
+	margin: 5px;
+	padding: 5px;
+	border-bottom: 1px solid #ffc107;
+}
+footer p a{
+	padding: 5px;
+	margin: 5px;
+	color: black;
+	text-decoration: none;
+}
+footer p a:hover{
+	padding: 5px;
+	margin: 5px;
+	font-weight: bolder;
+	color: #ffc107;
+	border: 1px solid #ffc107;
+	text-decoration: none;
+}
